@@ -6,10 +6,10 @@ import { Slide04 } from "./slides/Slide04";
 
 slix({
   slides: new Map([
-    [1, Slide01()],
-    [2, Slide02()],
-    [3, Slide03()],
-    [4, Slide04()],
+    [1, Slide01],
+    [2, Slide02],
+    [3, Slide03],
+    [4, Slide04],
   ]),
   initialSlide: 1,
 }).then((slixInstance) => {
