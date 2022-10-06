@@ -1,12 +1,13 @@
 import React from "react";
 import type { FC } from "react";
+import { useState } from "@frank-mayer/slix";
 
 export const Counter: FC = () => {
-  const [count, setCount] = React.useState(0);
+  const countState = useState("count", 0);
   return (
     <p
       onClick={() => {
-        setCount(count + 1);
+        countState.value = countState.value + 1;
       }}
       style={{
         cursor: "pointer",
@@ -14,7 +15,7 @@ export const Counter: FC = () => {
         padding: "1rem 2rem",
       }}
     >
-      {`You clicked ${count} times`}
+      {`You clicked ${countState.value} times`}
     </p>
   );
 };
