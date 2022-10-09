@@ -16,6 +16,7 @@ export const Slide02 = (
     }}
   >
     <h1>Slide 2</h1>
+    <p>Events and managed state</p>
     <Counter />
   </Slide>
 );

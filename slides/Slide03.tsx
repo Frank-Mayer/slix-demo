@@ -15,5 +15,7 @@ export const Slide03 = (
     }}
   >
     <h1>Slide 3</h1>
+    <p>Use the dot key start the control panel</p>
+    <p>Use the f key start the fullscreen mode</p>
   </Slide>
 );

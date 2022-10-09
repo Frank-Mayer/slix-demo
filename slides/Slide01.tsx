@@ -1,5 +1,6 @@
 import React from "react";
 import { Slide, spinX } from "@frank-mayer/slix";
+import { Typer } from "../components/Typer";
 
 export const Slide01 = (
   <Slide
@@ -16,7 +17,8 @@ export const Slide01 = (
     }}
   >
     <h1>Slide 1</h1>
-    <p>React powered Slides Framework</p>
+    <Typer>React powered Slides Framework</Typer>
+    <p>Use the right arrow key to get to the next slide</p>
     <img
       style={{
         width: "15vmin",

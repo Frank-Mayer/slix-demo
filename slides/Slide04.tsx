@@ -15,5 +15,6 @@ export const Slide04 = (
     }}
   >
     <h1>Slide 4</h1>
+    <p>Use the left arrow key to get to the previous slide</p>
   </Slide>
 );
