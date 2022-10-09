@@ -5,8 +5,8 @@
     "publish": "parcel build index.html --no-source-maps --no-cache --public-url https://frank-mayer.github.io/slix-demo"
   },
   "dependencies": {
-    "@frank-mayer/slix": "^1.0.11",
-    "framer-motion": "^7.5.1",
+    "@frank-mayer/slix": "^1.0.12",
+    "framer-motion": "^7.5.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-type-animation": "^2.1.1"
